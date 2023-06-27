@@ -1,6 +1,5 @@
 /.env
 /.encryptedKey.json
-/.prettierrc
 /SimpleStorage_sol_*
 
 /node_modules/
