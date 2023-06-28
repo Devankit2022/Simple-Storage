@@ -8,7 +8,7 @@
 
 2. Open **Git Bash**
 
-3. Clone the git repository using `git clone`
+3. Clone the git repository using `git clone https://github.com/Devankit2022/simple-storage-ethers.git`
 
 4. Open **Terminal**
 
@@ -18,10 +18,10 @@
 
 7. Run `yarn compile` to compile the solidity code
 
-8. Connect to the local blockchain using `ganache` and `ethers.js` fllowing this [documentation](https://docs.ethers.org/v5/getting-started/#getting-started--connecting-rpc)
+8. Connect to the local blockchain node using `ganache` and `ethers.js` following this [documentation](https://docs.ethers.org/v5/getting-started/#getting-started--connecting-rpc)
 
-    -   You can also connect to node as a service provider or remote blockchain using [Alchemy](https://www.alchemy.com/)
+    -   You can also connect to node as a service provider or remote blockchain node using [Alchemy](https://www.alchemy.com/)
 
 9. Run `node deploy.js` to deploy the contract
 
-10. `contractFactory.deploy()` returns a `Promise` which is when resloved you get a `contract object`, you can interact with the contract
+10. `contractFactory.deploy()` returns a `Promise`, which is when resolved, you get a `contract object`, using this, you can interact with the contract
